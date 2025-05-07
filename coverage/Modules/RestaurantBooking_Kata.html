@@ -1,0 +1,565 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8"/>
+        <title>RestaurantBooking_Kata.exe</title>
+        <link rel="stylesheet" type="text/css" href="../third-party/css/style.css"/>
+        <script src="../third-party/RGraph/libraries/RGraph.common.core.js" type="text/javascript"></script>
+        <script src="../third-party/RGraph/libraries/RGraph.common.dynamic.js" type="text/javascript"></script>
+        <script src="../third-party/RGraph/libraries/RGraph.common.tooltips.js" type="text/javascript"></script>
+        <script src="../third-party/RGraph/libraries/RGraph.pie.js" type="text/javascript"></script>
+        <script src="../third-party/JQuery/jquery-3.4.1.min.js"></script>
+    </head>
+    <body>
+    <script type="text/javascript">
+        $(document).ready(function ()
+        {
+            
+            new RGraph.Pie('pi_8de68f76-9bb1-4f45-a289-57373981c6b5', [1057, 3655])
+                .set('labels', ['Cover 22%','Uncover 78%'])
+                .set('colors', ['rgb(0,255,0)','rgb(255,0,0)'])
+                .set('linewidth', 1)
+                .set('shadow', true)
+                .set('tooltips', ['cover 1057 lines (22%)', 'uncover 3655 lines (78%)'])
+                .set('tooltips.event', 'onmousemove')
+                .set('labels.sticks', true)
+                .set('labels.sticks.length', 10)
+                .draw();
+            
+            new RGraph.Pie('pi_83724abd-fd90-48f3-b22d-5631698db314', [0, 2])
+                .set('labels', ['Cover 0%','Uncover 100%'])
+                .set('colors', ['rgb(0,255,0)','rgb(255,0,0)'])
+                .set('linewidth', 1)
+                .set('shadow', true)
+                .set('tooltips', ['cover 0 lines (0%)', 'uncover 2 lines (100%)'])
+                .set('tooltips.event', 'onmousemove')
+                .set('labels.sticks', true)
+                .set('labels.sticks.length', 10)
+                .draw();
+            
+            new RGraph.Pie('pi_4ec1fa4f-da1c-4e5e-89af-7a985f968f66', [0, 2])
+                .set('labels', ['Cover 0%','Uncover 100%'])
+                .set('colors', ['rgb(0,255,0)','rgb(255,0,0)'])
+                .set('linewidth', 1)
+                .set('shadow', true)
+                .set('tooltips', ['cover 0 lines (0%)', 'uncover 2 lines (100%)'])
+                .set('tooltips.event', 'onmousemove')
+                .set('labels.sticks', true)
+                .set('labels.sticks.length', 10)
+                .draw();
+            
+            new RGraph.Pie('pi_d7adf5cf-0f5c-44eb-bbe6-82849301179a', [0, 60])
+                .set('labels', ['Cover 0%','Uncover 100%'])
+                .set('colors', ['rgb(0,255,0)','rgb(255,0,0)'])
+                .set('linewidth', 1)
+                .set('shadow', true)
+                .set('tooltips', ['cover 0 lines (0%)', 'uncover 60 lines (100%)'])
+                .set('tooltips.event', 'onmousemove')
+                .set('labels.sticks', true)
+                .set('labels.sticks.length', 10)
+                .draw();
+            
+            new RGraph.Pie('pi_c0d55970-d7fc-4ef0-9041-4e06eecab1e1', [0, 194])
+                .set('labels', ['Cover 0%','Uncover 100%'])
+                .set('colors', ['rgb(0,255,0)','rgb(255,0,0)'])
+                .set('linewidth', 1)
+                .set('shadow', true)
+                .set('tooltips', ['cover 0 lines (0%)', 'uncover 194 lines (100%)'])
+                .set('tooltips.event', 'onmousemove')
+                .set('labels.sticks', true)
+                .set('labels.sticks.length', 10)
+                .draw();
+            
+            new RGraph.Pie('pi_c8ef778e-fbc2-4f93-bdcb-8f3857d24888', [0, 6])
+                .set('labels', ['Cover 0%','Uncover 100%'])
+                .set('colors', ['rgb(0,255,0)','rgb(255,0,0)'])
+                .set('linewidth', 1)
+                .set('shadow', true)
+                .set('tooltips', ['cover 0 lines (0%)', 'uncover 6 lines (100%)'])
+                .set('tooltips.event', 'onmousemove')
+                .set('labels.sticks', true)
+                .set('labels.sticks.length', 10)
+                .draw();
+            
+            new RGraph.Pie('pi_ed2dd4d9-ca93-477b-82c2-e455d679f249', [0, 215])
+                .set('labels', ['Cover 0%','Uncover 100%'])
+                .set('colors', ['rgb(0,255,0)','rgb(255,0,0)'])
+                .set('linewidth', 1)
+                .set('shadow', true)
+                .set('tooltips', ['cover 0 lines (0%)', 'uncover 215 lines (100%)'])
+                .set('tooltips.event', 'onmousemove')
+                .set('labels.sticks', true)
+                .set('labels.sticks.length', 10)
+                .draw();
+            
+            new RGraph.Pie('pi_7ca12bc8-f233-4070-aac2-a4848bfe1356', [0, 32])
+                .set('labels', ['Cover 0%','Uncover 100%'])
+                .set('colors', ['rgb(0,255,0)','rgb(255,0,0)'])
+                .set('linewidth', 1)
+                .set('shadow', true)
+                .set('tooltips', ['cover 0 lines (0%)', 'uncover 32 lines (100%)'])
+                .set('tooltips.event', 'onmousemove')
+                .set('labels.sticks', true)
+                .set('labels.sticks.length', 10)
+                .draw();
+            
+            new RGraph.Pie('pi_5ba17ed9-9d44-4b6f-a64e-acde1496737e', [0, 45])
+                .set('labels', ['Cover 0%','Uncover 100%'])
+                .set('colors', ['rgb(0,255,0)','rgb(255,0,0)'])
+                .set('linewidth', 1)
+                .set('shadow', true)
+                .set('tooltips', ['cover 0 lines (0%)', 'uncover 45 lines (100%)'])
+                .set('tooltips.event', 'onmousemove')
+                .set('labels.sticks', true)
+                .set('labels.sticks.length', 10)
+                .draw();
+            
+            new RGraph.Pie('pi_9b7a1988-f5d5-47c7-96cb-6daa3c0f73f3', [1, 61])
+                .set('labels', ['Cover 1%','Uncover 99%'])
+                .set('colors', ['rgb(0,255,0)','rgb(255,0,0)'])
+                .set('linewidth', 1)
+                .set('shadow', true)
+                .set('tooltips', ['cover 1 lines (1%)', 'uncover 61 lines (99%)'])
+                .set('tooltips.event', 'onmousemove')
+                .set('labels.sticks', true)
+                .set('labels.sticks.length', 10)
+                .draw();
+            
+            new RGraph.Pie('pi_5179fc47-4c24-480c-aaa8-59ce5d8ea1fd', [11, 375])
+                .set('labels', ['Cover 2%','Uncover 98%'])
+                .set('colors', ['rgb(0,255,0)','rgb(255,0,0)'])
+                .set('linewidth', 1)
+                .set('shadow', true)
+                .set('tooltips', ['cover 11 lines (2%)', 'uncover 375 lines (98%)'])
+                .set('tooltips.event', 'onmousemove')
+                .set('labels.sticks', true)
+                .set('labels.sticks.length', 10)
+                .draw();
+            
+            new RGraph.Pie('pi_04d07922-0279-410d-a2d6-7bd8ad6381e9', [10, 248])
+                .set('labels', ['Cover 3%','Uncover 97%'])
+                .set('colors', ['rgb(0,255,0)','rgb(255,0,0)'])
+                .set('linewidth', 1)
+                .set('shadow', true)
+                .set('tooltips', ['cover 10 lines (3%)', 'uncover 248 lines (97%)'])
+                .set('tooltips.event', 'onmousemove')
+                .set('labels.sticks', true)
+                .set('labels.sticks.length', 10)
+                .draw();
+            
+            new RGraph.Pie('pi_b211cfe2-36b2-4052-95d3-2005307ed96b', [18, 86])
+                .set('labels', ['Cover 17%','Uncover 83%'])
+                .set('colors', ['rgb(0,255,0)','rgb(255,0,0)'])
+                .set('linewidth', 1)
+                .set('shadow', true)
+                .set('tooltips', ['cover 18 lines (17%)', 'uncover 86 lines (83%)'])
+                .set('tooltips.event', 'onmousemove')
+                .set('labels.sticks', true)
+                .set('labels.sticks.length', 10)
+                .draw();
+            
+            new RGraph.Pie('pi_c36e8c5c-ed4a-486a-84f7-cefb3ad78d3c', [94, 391])
+                .set('labels', ['Cover 19%','Uncover 81%'])
+                .set('colors', ['rgb(0,255,0)','rgb(255,0,0)'])
+                .set('linewidth', 1)
+                .set('shadow', true)
+                .set('tooltips', ['cover 94 lines (19%)', 'uncover 391 lines (81%)'])
+                .set('tooltips.event', 'onmousemove')
+                .set('labels.sticks', true)
+                .set('labels.sticks.length', 10)
+                .draw();
+            
+            new RGraph.Pie('pi_7cf7fd5c-dd64-4cca-9d61-5de468caefcf', [14, 43])
+                .set('labels', ['Cover 24%','Uncover 76%'])
+                .set('colors', ['rgb(0,255,0)','rgb(255,0,0)'])
+                .set('linewidth', 1)
+                .set('shadow', true)
+                .set('tooltips', ['cover 14 lines (24%)', 'uncover 43 lines (76%)'])
+                .set('tooltips.event', 'onmousemove')
+                .set('labels.sticks', true)
+                .set('labels.sticks.length', 10)
+                .draw();
+            
+            new RGraph.Pie('pi_1bb3feb1-b0cf-4787-abfa-3c7cdc40cd9b', [779, 1894])
+                .set('labels', ['Cover 29%','Uncover 71%'])
+                .set('colors', ['rgb(0,255,0)','rgb(255,0,0)'])
+                .set('linewidth', 1)
+                .set('shadow', true)
+                .set('tooltips', ['cover 779 lines (29%)', 'uncover 1894 lines (71%)'])
+                .set('tooltips.event', 'onmousemove')
+                .set('labels.sticks', true)
+                .set('labels.sticks.length', 10)
+                .draw();
+            
+            new RGraph.Pie('pi_5af9d0fa-eab0-494f-b758-a6b63b515d2b', [63, 1])
+                .set('labels', ['Cover 98%','Uncover 2%'])
+                .set('colors', ['rgb(0,255,0)','rgb(255,0,0)'])
+                .set('linewidth', 1)
+                .set('shadow', true)
+                .set('tooltips', ['cover 63 lines (98%)', 'uncover 1 lines (2%)'])
+                .set('tooltips.event', 'onmousemove')
+                .set('labels.sticks', true)
+                .set('labels.sticks.length', 10)
+                .draw();
+            
+            new RGraph.Pie('pi_10b8d465-a358-4f36-8090-9c289c7a6f92', [31, 0])
+                .set('labels', ['Cover 100%','Uncover 0%'])
+                .set('colors', ['rgb(0,255,0)','rgb(255,0,0)'])
+                .set('linewidth', 1)
+                .set('shadow', true)
+                .set('tooltips', ['cover 31 lines (100%)', 'uncover 0 lines (0%)'])
+                .set('tooltips.event', 'onmousemove')
+                .set('labels.sticks', true)
+                .set('labels.sticks.length', 10)
+                .draw();
+            
+            new RGraph.Pie('pi_25525214-0f5c-4803-8cd4-712e9191a32f', [10, 0])
+                .set('labels', ['Cover 100%','Uncover 0%'])
+                .set('colors', ['rgb(0,255,0)','rgb(255,0,0)'])
+                .set('linewidth', 1)
+                .set('shadow', true)
+                .set('tooltips', ['cover 10 lines (100%)', 'uncover 0 lines (0%)'])
+                .set('tooltips.event', 'onmousemove')
+                .set('labels.sticks', true)
+                .set('labels.sticks.length', 10)
+                .draw();
+            
+            new RGraph.Pie('pi_ffde9ea4-ca7b-4696-8a6f-2fa9a1ae820c', [13, 0])
+                .set('labels', ['Cover 100%','Uncover 0%'])
+                .set('colors', ['rgb(0,255,0)','rgb(255,0,0)'])
+                .set('linewidth', 1)
+                .set('shadow', true)
+                .set('tooltips', ['cover 13 lines (100%)', 'uncover 0 lines (0%)'])
+                .set('tooltips.event', 'onmousemove')
+                .set('labels.sticks', true)
+                .set('labels.sticks.length', 10)
+                .draw();
+            
+            new RGraph.Pie('pi_57e7f9fa-838d-44a8-b50d-698f869919c9', [6, 0])
+                .set('labels', ['Cover 100%','Uncover 0%'])
+                .set('colors', ['rgb(0,255,0)','rgb(255,0,0)'])
+                .set('linewidth', 1)
+                .set('shadow', true)
+                .set('tooltips', ['cover 6 lines (100%)', 'uncover 0 lines (0%)'])
+                .set('tooltips.event', 'onmousemove')
+                .set('labels.sticks', true)
+                .set('labels.sticks.length', 10)
+                .draw();
+            
+            new RGraph.Pie('pi_96c270fa-77f9-4ea0-a183-19f0b808618b', [7, 0])
+                .set('labels', ['Cover 100%','Uncover 0%'])
+                .set('colors', ['rgb(0,255,0)','rgb(255,0,0)'])
+                .set('linewidth', 1)
+                .set('shadow', true)
+                .set('tooltips', ['cover 7 lines (100%)', 'uncover 0 lines (0%)'])
+                .set('tooltips.event', 'onmousemove')
+                .set('labels.sticks', true)
+                .set('labels.sticks.length', 10)
+                .draw();
+            
+
+      })
+    </script>    
+        <h1>
+        RestaurantBooking_Kata.exe
+        </h1>
+        <h4>
+        
+        </h4>
+        <table id="rounded-corner">
+            <thead>
+                <tr>
+                    <th scope="col" class="rounded-left">Coverage</th>
+                    <th scope="col">Total lines</th>
+                    <th scope="col" class="rounded-right">Items</th>
+                </tr>
+            </thead> 
+            <tbody>
+                
+                <tr>
+                    <td>
+            <canvas id="pi_8de68f76-9bb1-4f45-a289-57373981c6b5" width="280" height="100">Cover 22%</canvas>
+                    </td>            
+                    <td>4712</td>
+                    <td>            
+                      
+                      C:\Users\gaihw\source\repos\RestaurantBooking_Kata\x64\Debug\RestaurantBooking_Kata.exe
+                      
+                    </td>
+                </tr>        
+                
+                <tr>
+                    <td>
+            <canvas id="pi_83724abd-fd90-48f3-b22d-5631698db314" width="280" height="100">Cover 0%</canvas>
+                    </td>            
+                    <td>2</td>
+                    <td>            
+                       <a href="RestaurantBooking_Kata/mail_sender.cpp.html">C:\Users\gaihw\source\repos\RestaurantBooking_Kata\RestaurantBooking_Kata\mail_sender.cpp</a> 
+                      
+                      
+                    </td>
+                </tr>        
+                
+                <tr>
+                    <td>
+            <canvas id="pi_4ec1fa4f-da1c-4e5e-89af-7a985f968f66" width="280" height="100">Cover 0%</canvas>
+                    </td>            
+                    <td>2</td>
+                    <td>            
+                       <a href="RestaurantBooking_Kata/sms_sender.cpp.html">C:\Users\gaihw\source\repos\RestaurantBooking_Kata\RestaurantBooking_Kata\sms_sender.cpp</a> 
+                      
+                      
+                    </td>
+                </tr>        
+                
+                <tr>
+                    <td>
+            <canvas id="pi_d7adf5cf-0f5c-44eb-bbe6-82849301179a" width="280" height="100">Cover 0%</canvas>
+                    </td>            
+                    <td>60</td>
+                    <td>            
+                       <a href="RestaurantBooking_Kata/gmock-cardinalities.cc.html">C:\Users\gaihw\source\repos\RestaurantBooking_Kata\packages\gmock.1.11.0\lib\native\src\gmock\src\gmock-cardinalities.cc</a> 
+                      
+                      
+                    </td>
+                </tr>        
+                
+                <tr>
+                    <td>
+            <canvas id="pi_c0d55970-d7fc-4ef0-9041-4e06eecab1e1" width="280" height="100">Cover 0%</canvas>
+                    </td>            
+                    <td>194</td>
+                    <td>            
+                       <a href="RestaurantBooking_Kata/gmock-matchers.cc.html">C:\Users\gaihw\source\repos\RestaurantBooking_Kata\packages\gmock.1.11.0\lib\native\src\gmock\src\gmock-matchers.cc</a> 
+                      
+                      
+                    </td>
+                </tr>        
+                
+                <tr>
+                    <td>
+            <canvas id="pi_c8ef778e-fbc2-4f93-bdcb-8f3857d24888" width="280" height="100">Cover 0%</canvas>
+                    </td>            
+                    <td>6</td>
+                    <td>            
+                       <a href="RestaurantBooking_Kata/gtest-matchers.cc.html">C:\Users\gaihw\source\repos\RestaurantBooking_Kata\packages\gmock.1.11.0\lib\native\src\gtest\src\gtest-matchers.cc</a> 
+                      
+                      
+                    </td>
+                </tr>        
+                
+                <tr>
+                    <td>
+            <canvas id="pi_ed2dd4d9-ca93-477b-82c2-e455d679f249" width="280" height="100">Cover 0%</canvas>
+                    </td>            
+                    <td>215</td>
+                    <td>            
+                       <a href="RestaurantBooking_Kata/gtest-printers.cc.html">C:\Users\gaihw\source\repos\RestaurantBooking_Kata\packages\gmock.1.11.0\lib\native\src\gtest\src\gtest-printers.cc</a> 
+                      
+                      
+                    </td>
+                </tr>        
+                
+                <tr>
+                    <td>
+            <canvas id="pi_7ca12bc8-f233-4070-aac2-a4848bfe1356" width="280" height="100">Cover 0%</canvas>
+                    </td>            
+                    <td>32</td>
+                    <td>            
+                       <a href="RestaurantBooking_Kata/gtest-test-part.cc.html">C:\Users\gaihw\source\repos\RestaurantBooking_Kata\packages\gmock.1.11.0\lib\native\src\gtest\src\gtest-test-part.cc</a> 
+                      
+                      
+                    </td>
+                </tr>        
+                
+                <tr>
+                    <td>
+            <canvas id="pi_5ba17ed9-9d44-4b6f-a64e-acde1496737e" width="280" height="100">Cover 0%</canvas>
+                    </td>            
+                    <td>45</td>
+                    <td>            
+                       <a href="RestaurantBooking_Kata/gtest-typed-test.cc.html">C:\Users\gaihw\source\repos\RestaurantBooking_Kata\packages\gmock.1.11.0\lib\native\src\gtest\src\gtest-typed-test.cc</a> 
+                      
+                      
+                    </td>
+                </tr>        
+                
+                <tr>
+                    <td>
+            <canvas id="pi_9b7a1988-f5d5-47c7-96cb-6daa3c0f73f3" width="280" height="100">Cover 1%</canvas>
+                    </td>            
+                    <td>62</td>
+                    <td>            
+                       <a href="RestaurantBooking_Kata/gmock-internal-utils.cc.html">C:\Users\gaihw\source\repos\RestaurantBooking_Kata\packages\gmock.1.11.0\lib\native\src\gmock\src\gmock-internal-utils.cc</a> 
+                      
+                      
+                    </td>
+                </tr>        
+                
+                <tr>
+                    <td>
+            <canvas id="pi_5179fc47-4c24-480c-aaa8-59ce5d8ea1fd" width="280" height="100">Cover 2%</canvas>
+                    </td>            
+                    <td>386</td>
+                    <td>            
+                       <a href="RestaurantBooking_Kata/gmock-spec-builders.cc.html">C:\Users\gaihw\source\repos\RestaurantBooking_Kata\packages\gmock.1.11.0\lib\native\src\gmock\src\gmock-spec-builders.cc</a> 
+                      
+                      
+                    </td>
+                </tr>        
+                
+                <tr>
+                    <td>
+            <canvas id="pi_04d07922-0279-410d-a2d6-7bd8ad6381e9" width="280" height="100">Cover 3%</canvas>
+                    </td>            
+                    <td>258</td>
+                    <td>            
+                       <a href="RestaurantBooking_Kata/gtest-death-test.cc.html">C:\Users\gaihw\source\repos\RestaurantBooking_Kata\packages\gmock.1.11.0\lib\native\src\gtest\src\gtest-death-test.cc</a> 
+                      
+                      
+                    </td>
+                </tr>        
+                
+                <tr>
+                    <td>
+            <canvas id="pi_b211cfe2-36b2-4052-95d3-2005307ed96b" width="280" height="100">Cover 17%</canvas>
+                    </td>            
+                    <td>104</td>
+                    <td>            
+                       <a href="RestaurantBooking_Kata/gtest-filepath.cc.html">C:\Users\gaihw\source\repos\RestaurantBooking_Kata\packages\gmock.1.11.0\lib\native\src\gtest\src\gtest-filepath.cc</a> 
+                      
+                      
+                    </td>
+                </tr>        
+                
+                <tr>
+                    <td>
+            <canvas id="pi_c36e8c5c-ed4a-486a-84f7-cefb3ad78d3c" width="280" height="100">Cover 19%</canvas>
+                    </td>            
+                    <td>485</td>
+                    <td>            
+                       <a href="RestaurantBooking_Kata/gtest-port.cc.html">C:\Users\gaihw\source\repos\RestaurantBooking_Kata\packages\gmock.1.11.0\lib\native\src\gtest\src\gtest-port.cc</a> 
+                      
+                      
+                    </td>
+                </tr>        
+                
+                <tr>
+                    <td>
+            <canvas id="pi_7cf7fd5c-dd64-4cca-9d61-5de468caefcf" width="280" height="100">Cover 24%</canvas>
+                    </td>            
+                    <td>57</td>
+                    <td>            
+                       <a href="RestaurantBooking_Kata/gmock.cc.html">C:\Users\gaihw\source\repos\RestaurantBooking_Kata\packages\gmock.1.11.0\lib\native\src\gmock\src\gmock.cc</a> 
+                      
+                      
+                    </td>
+                </tr>        
+                
+                <tr>
+                    <td>
+            <canvas id="pi_1bb3feb1-b0cf-4787-abfa-3c7cdc40cd9b" width="280" height="100">Cover 29%</canvas>
+                    </td>            
+                    <td>2673</td>
+                    <td>            
+                       <a href="RestaurantBooking_Kata/gtest.cc.html">C:\Users\gaihw\source\repos\RestaurantBooking_Kata\packages\gmock.1.11.0\lib\native\src\gtest\src\gtest.cc</a> 
+                      
+                      
+                    </td>
+                </tr>        
+                
+                <tr>
+                    <td>
+            <canvas id="pi_5af9d0fa-eab0-494f-b758-a6b63b515d2b" width="280" height="100">Cover 98%</canvas>
+                    </td>            
+                    <td>64</td>
+                    <td>            
+                       <a href="RestaurantBooking_Kata/test.cpp.html">C:\Users\gaihw\source\repos\RestaurantBooking_Kata\RestaurantBooking_Kata\test.cpp</a> 
+                      
+                      
+                    </td>
+                </tr>        
+                
+                <tr>
+                    <td>
+            <canvas id="pi_10b8d465-a358-4f36-8090-9c289c7a6f92" width="280" height="100">Cover 100%</canvas>
+                    </td>            
+                    <td>31</td>
+                    <td>            
+                       <a href="RestaurantBooking_Kata/booking_scheduler.cpp.html">C:\Users\gaihw\source\repos\RestaurantBooking_Kata\RestaurantBooking_Kata\booking_scheduler.cpp</a> 
+                      
+                      
+                    </td>
+                </tr>        
+                
+                <tr>
+                    <td>
+            <canvas id="pi_25525214-0f5c-4803-8cd4-712e9191a32f" width="280" height="100">Cover 100%</canvas>
+                    </td>            
+                    <td>10</td>
+                    <td>            
+                       <a href="RestaurantBooking_Kata/customer.cpp.html">C:\Users\gaihw\source\repos\RestaurantBooking_Kata\RestaurantBooking_Kata\customer.cpp</a> 
+                      
+                      
+                    </td>
+                </tr>        
+                
+                <tr>
+                    <td>
+            <canvas id="pi_ffde9ea4-ca7b-4696-8a6f-2fa9a1ae820c" width="280" height="100">Cover 100%</canvas>
+                    </td>            
+                    <td>13</td>
+                    <td>            
+                       <a href="RestaurantBooking_Kata/schedule.cpp.html">C:\Users\gaihw\source\repos\RestaurantBooking_Kata\RestaurantBooking_Kata\schedule.cpp</a> 
+                      
+                      
+                    </td>
+                </tr>        
+                
+                <tr>
+                    <td>
+            <canvas id="pi_57e7f9fa-838d-44a8-b50d-698f869919c9" width="280" height="100">Cover 100%</canvas>
+                    </td>            
+                    <td>6</td>
+                    <td>            
+                       <a href="RestaurantBooking_Kata/testable_mail_sender.cpp.html">C:\Users\gaihw\source\repos\RestaurantBooking_Kata\RestaurantBooking_Kata\testable_mail_sender.cpp</a> 
+                      
+                      
+                    </td>
+                </tr>        
+                
+                <tr>
+                    <td>
+            <canvas id="pi_96c270fa-77f9-4ea0-a183-19f0b808618b" width="280" height="100">Cover 100%</canvas>
+                    </td>            
+                    <td>7</td>
+                    <td>            
+                       <a href="RestaurantBooking_Kata/testable_sms_sender.cpp.html">C:\Users\gaihw\source\repos\RestaurantBooking_Kata\RestaurantBooking_Kata\testable_sms_sender.cpp</a> 
+                      
+                      
+                    </td>
+                </tr>        
+                
+            </tbody>
+            <tfoot>
+                <tr>
+                <td colspan="2" class="rounded-foot-left"></td>
+                <td class="rounded-foot-right"></td>
+                </tr>
+            </tfoot>            
+        </table>
+        <hr/>
+        <table width="100%" >
+         <thead>
+            <tr>
+               <th align="center">
+                  <small>Generated by</small>
+                  <a href="https://github.com/OpenCppCoverage/OpenCppCoverage/releases">
+                     <strong>OpenCppCoverage (Version: 0.9.9.0)</strong>
+                  </a>
+               </th>
+            </tr>
+         </thead>
+        </table>
+    </body>
+</html>
